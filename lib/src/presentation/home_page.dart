@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
             actions: <Widget>[
               IconButton(
                 onPressed: () {
-                  StoreProvider.of<AppState>(context).dispatch(Logout());
+                  StoreProvider.of<AppState>(context).dispatch(const Logout());
                 },
                 icon: const Icon(
                   Icons.logout_outlined,
